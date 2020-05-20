@@ -1,0 +1,1 @@
+CREATE TABLE `trustmeenglish`.`user` ( `id` BIGINT(20) NOT NULL AUTO_INCREMENT , `email` VARCHAR(45) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL , `password` VARCHAR(45) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL , PRIMARY KEY (`id`), UNIQUE (`email`)) ENGINE = InnoDB;
