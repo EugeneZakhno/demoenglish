@@ -10,8 +10,5 @@ public class SomeController {
     public  String sayHello(){
         return "Hello World!";
     }
-    @GetMapping("/let")
-    public  String sayLet(){
-        return "Let's play!";
-    }
+
 }
