@@ -15,9 +15,9 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class User {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//https://www.youtube.com/watch?v=ksUpB2rEAPw&list=PLEd6LarmkKnXsqv0L2EL_njzGPV-e50-6&index=4 @Id
+@Id
+@GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String email;
     private String password;
