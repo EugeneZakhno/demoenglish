@@ -1,4 +1,7 @@
 package com.meanenglish.demoenglish.services;
 
-public interface UserService {
+import com.meanenglish.demoenglish.model.User;
+
+public interface UserService  {
+    User getUser();
 }
