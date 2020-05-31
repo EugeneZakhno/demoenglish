@@ -18,6 +18,8 @@ public class User {
 //https://www.youtube.com/watch?v=ksUpB2rEAPw&list=PLEd6LarmkKnXsqv0L2EL_njzGPV-e50-6&index=4 @Id
 @Id
 @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+//SET GLOBAL time_zone = 'Europe/Moscow';
     private long id;
     private String email;
     private String password;

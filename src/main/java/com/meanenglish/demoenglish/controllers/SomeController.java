@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class SomeController {
 
     private final UserService userService;
-
     @GetMapping("/hello/{id}")
     public User sayHello(@PathVariable Long id){
         return userService.getUser(id);
